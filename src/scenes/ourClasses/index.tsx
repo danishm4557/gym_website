@@ -1,5 +1,5 @@
 import React from 'react'
-import { SelectedPage } from '../../shared/types'
+import { SelectedPage, ClassType } from '../../shared/types'
 import image1 from '../../assets/image1.png';
 import image2 from '../../assets/image2.png';
 import image3 from '../../assets/image3.png';
@@ -8,7 +8,38 @@ import image5 from '../../assets/image5.png';
 import image6 from '../../assets/image6.png';
 import { motion } from 'framer-motion';
 import HText from '../../shared/HText';
+import Class from './Class';
 
+const classes: Array<ClassType> = [
+	{
+		name: "Weight Training Classes",
+		description: "Boost your strength and fitness in our weight training class, perfect for all levels. Expert-led sessions focus on building muscle and enhancing overall tone.",
+		image: image1
+	},
+	{
+		name: "Yoga Classes",
+		image: image2
+	},
+	{
+		name: "Ab Core Classes",
+		description: "Strengthen your core and sculpt your abs in our focused Ab Core class, perfect for all fitness levels. Expert-led workouts target your midsection for maximum results.",
+		image: image3
+	},
+	{
+		name: "Adventure Classes",
+		description: "Unleash your adventurous spirit in our high-energy Adventure class. Designed for all fitness levels, this session combines dynamic movements and challenges to keep you engaged and energized.",
+		image: image4
+	},
+	{
+		name: "Fitness Classes",
+		description: "Elevate your fitness in our all-levels Fitness class. Expert-led sessions combine cardio and strength training for a full-body workout that keeps you motivated.",
+		image: image5
+	},
+	{
+		name: "Training Classes",
+		image: image6
+	}
+]
 
 type Props = {
 	setSelectedPage: (value: SelectedPage) => void;
@@ -40,6 +71,18 @@ const OurClasses = ({ setSelectedPage }: Props) => {
 				</p>
 			</div>
 		</motion.div>
+		<div className="mt-10 h-[350px] w-full overflow-x-auto overflow-y-hidden">
+			<ul className="w-[2800px] whitespace-nowrap">
+				{classes.map((item: ClassType, index) => (
+					<Class
+						key={`${item.name}-${index}`}
+						name={item.name}
+						description={item.description}
+						image={item.image}
+					/>
+				))}
+			</ul>
+		</div>
 	</motion.div>
   </section>
 }

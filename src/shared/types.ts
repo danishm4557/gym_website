@@ -11,3 +11,10 @@ export interface BenefitType {
 	title: string;
 	description: string;
 }
+
+export interface ClassType {
+	name: string;
+	// adding a ? means it's optional. It's no longer required in OurClasses index.tsx
+	description?: string;
+	image: string;
+}
