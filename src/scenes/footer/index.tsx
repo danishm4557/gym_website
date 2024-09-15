@@ -1,6 +1,4 @@
 import Logo from '../../assets/Logo.png'
-import { SelectedPage } from '../../shared/types'
-
 
 const Footer = () => {
   return <footer id="footer" className="bg-primary-100 py-16">
