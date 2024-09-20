@@ -8,6 +8,7 @@
     <li><span style="font-size: 16px;">TypeScript</span></li>
     <li><span style="font-size: 16px;">Vite</span></li>
     <li><span style="font-size: 16px;">Tailwind CSS</span></li>
+    <li><span style="font-size: 16px;">Cloudflare</span></li>
     <li><span style="font-size: 16px;">Framer-Motion</span></li>
     <li><span style="font-size: 16px;">Hero Icons</span></li>
     <li><span style="font-size: 16px;">React Hook Form</span></li>
