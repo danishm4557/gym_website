@@ -1,6 +1,6 @@
 # EvoGym
 <p>Introducing our completely renovated state-of-the-art facilities that provide you the tools and coaching you need to get to your best self. From weight-training to yoga to adventure, you can be sure to find a class and instructor at EvoGym that fits your needs and style of training. Our instructors are dedicated to your success and will be sure to push you to your limits in order to help you achieve your goals.</p>
-<p>Join EvoGym Here ➡️ <a data-fr-linked="true" href="https://gym-website-46r.pages.dev/">https://gym-website-46r.pages.dev/</a></p>
+<p>Join EvoGym Here ➡️ <a data-fr-linked="true" href="https://gym-website-46r.pages.dev/" target="_blank">https://gym-website-46r.pages.dev/</a></p>
 
 ### Tech Used
 <ul>
